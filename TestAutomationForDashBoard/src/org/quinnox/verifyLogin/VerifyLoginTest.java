@@ -46,7 +46,8 @@ public class VerifyLoginTest {
 
 		driver.findElement(By.id("Email")).sendKeys("manju.naidu13@gmail.com");
 		driver.findElement(By.id("next")).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Thread.sleep(7000);
 		driver.findElement(By.id("Passwd")).sendKeys("9886521575");
 		Thread.sleep(7000);
 		driver.findElement(By.id("signIn")).click();
