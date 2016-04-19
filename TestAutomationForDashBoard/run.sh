@@ -1,0 +1,1 @@
+java -cp bin:SeleniumAPI/* org.testng.TestNG testng.xml
